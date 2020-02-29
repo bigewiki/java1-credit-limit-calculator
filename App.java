@@ -36,12 +36,14 @@ public class App {
         // while loop for repeat user interaction
         while (continueRunning) {
             // let the user decide if they would like to continue
-            while (continueRunning) {
+            while (true) {
                 String answer = input.nextLine().trim().toLowerCase();
                 if (answer.equals("y")) {
                     System.out.println("===========================");
+                    break;
                 } else if (answer.equals("n")) {
                     continueRunning = false;
+                    break;
                 } else {
                     System.out.print("Would you like to continue? (y/n): ");
                 }
