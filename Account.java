@@ -48,4 +48,24 @@ public class Account {
         }
     }
 
+    public void setAccountNummber(Integer input) {
+        accountNumber = input;
+    }
+
+    public void setBeginningBalance(Integer input) {
+        beginningBalance = input;
+    }
+
+    public void setCharges(Integer input) {
+        charges = input;
+    }
+
+    public void setCredits(Integer input) {
+        credits = input;
+    }
+
+    public void setCreditLimit(Integer input) {
+        creditLimit = input;
+    }
+
 }
